@@ -16,6 +16,7 @@
         android:layout_height="wrap_content" />
 
     <EditText
+        android:id="@+id/username"
         android:hint="Username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -23,9 +24,10 @@
         android:hint="Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <EditText
-        android:hint="Username"
+
+    <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Register"/>
 
 </LinearLayout>
