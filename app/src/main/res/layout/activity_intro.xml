@@ -25,24 +25,37 @@
         android:text="The best way to find exactly who you want."
         android:textSize="20sp"/>
 
-    <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Please create your username:"
-            android:textSize="16dp"/>
-
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginBottom="30dp"
+            />
+    <Button
+        android:text="Log in"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="HobbiesCollect"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="If you are a first time user:"
+    android:layout_marginBottom="10dp"
+    android:gravity="center_horizontal"/>
 
     <Button
-        android:text="Get started"
-        android:padding="16dp"
+        android:text="Register here"
+        android:layout_margin="10dp"
         android:layout_gravity="center_horizontal|bottom"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
