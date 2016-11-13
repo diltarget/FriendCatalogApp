@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FriendCatalogApp.iml" filepath="$PROJECT_DIR$/FriendCatalogApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FriendCatalog.iml" filepath="$PROJECT_DIR$/FriendCatalog.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/facebook-android-sdk-4.17.0/facebook-android-sdk-4.17.0.iml" filepath="$PROJECT_DIR$/facebook-android-sdk-4.17.0/facebook-android-sdk-4.17.0.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jackson-core-2.8.4/jackson-core-2.8.4.iml" filepath="$PROJECT_DIR$/jackson-core-2.8.4/jackson-core-2.8.4.iml" />
     </modules>
   </component>
 </project>
